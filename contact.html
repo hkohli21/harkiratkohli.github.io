@@ -1,0 +1,175 @@
+
+
+ <!-- Name: Harkirat Singh Kohli
+        StudentID: 145039202
+        email-id- hskohli2@myseneca.ca
+        Date: 10/04/2022
+        Professor: Muath Alzhool
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="style.css" type="text/css" />
+
+    
+<body>
+  <b>CONTACT FORM </b>
+    <fieldset style="width:470px;">
+        <form style="padding-left: 6%;padding-top: 6%;"  >
+<p>
+    <h3>Basic information</h3>  
+    • Name              :     Harkirat Singh Kohli
+
+</p>
+<p>
+    • Age         :            20
+</p>
+
+<p>
+    • Course           :       Web Programming Principles WEB222
+</p>
+
+<p>
+    • Section              :       ZCC 
+</p>
+
+<p>
+    • Student id             :       145039202 
+</p>
+
+<p>
+    • Instructors Name      :       Muath Alzghool
+</p>
+
+<br>
+<br>
+<br>
+<br>
+
+<h3>About Me And Academic Honesty</h3>
+<p>  
+        I <b> Harkirat Singh Kohli </b> student of  Web Programming Principles under the supervision of prof <b>Muath Alzghool</b>  declare that my assessment is wholly my own work in accordance with Seneca Academic
+Policy. No part of this assessment has been copied manually or electronically from any other
+source (including web sites) except for the information supplied by the WEB222 instructors and /
+or made available in this assessment for my use. I also declare that no part of this assignment
+has been distributed to other students. 
+   </p>
+   <p>
+    • The current date     :      10-04-2022
+</p>
+
+</fieldset>
+
+<br>
+<br>
+<br>
+
+<h2>Education</h2>
+
+<div class="row1">
+    <div class="colmn1">
+        <form style="padding-left: 1px;padding-top: 1%;">
+        <fieldset style="width:500px;">
+          
+    
+           <p> <br><b> DIPLOMA IN COMPUTER PROGRAMMING </b> <br>
+            <b> SENECA COLLEGE</b><br>
+            <b>Markham,Ontario</b>
+             <img src="seneca.png"  width="95" height="100" align ="right"> </P>
+             
+             
+    </p>
+    </fieldset>
+</form>
+        </div>
+      </div>
+      <br>
+      <br>
+    
+      <div class="container">
+        <form action="https://httpbin.org/post" method="post" id="contact">
+      
+          <label for="name">Name</label>
+          <input required type="text" id="name" name="name" placeholder="Your name..">
+      
+          <label for="contact">Contact Number</label>
+          <input required type="text" id="contact" name="contact" placeholder="Your number with country code.."br>
+      
+          <label for="mail">Mail id</label>
+         <input required type="text" id="mail" name="mail" placeholder="Your mail id.."br>
+      
+          <label for="subject">Subject</label>
+          <textarea required id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <label for="Canadian City">Canadian City</label>
+          <input type="text" list="Canadian Cities" name="Canada Cities" placeholder="City: ">
+              <datalist id=" Canadian cities">
+                <option value="Toronto">
+<option value="Vancouver">
+<option value="Montreal">
+  <option value="London">
+    
+              </datalist>
+              <label for="Postal Code">Postal Code</label>
+              <input name="Postal Code" type="text" placeholder="XIX 2JX"
+pattern="^[A-Za-z]\d[A-Za-z]+\s+\d[A-Za-z]\d$"style="padding:1.5rem; margin:1rem 0;
+background: white;
+color: white;
+margin-left: 9%;
+margin-right: 8%;
+font-size: 1 rem;
+width:45%;
+height: 2px;" required >
+<br> <br>
+<label for="Type">Type of Query:</label>
+                        <div>
+                            <input type="radio" name="option" id="options1" required>
+                            <label for="Question">Question:</label>
+
+                            <div class="active">
+                                <label for="question"></label>
+                                <textarea name="Question" id="question" cols="50" rows="6" maxlength="300"
+                                    placeholder="Question..." class="active"
+                                    data-require-pair="#options"></textarea>
+                            </div>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="option" id="option2">
+                            <label for="Comment">Comment:</label>
+
+                            <div class="active">
+                                <label for="comment"></label>
+                                <textarea name="Comment" id="comment" cols="50" rows="6" maxlength="300"
+                                    placeholder="Comment..." class="active"
+                                    data-require-pair="#options"></textarea>
+                            </div>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="option" id="option3">
+                            <label for="Hiring">Hiring</label>
+
+                            <div class="active">
+                                <label for="hiring">Hourly Rate: $</label>
+                                <input type="number" name="Hourly rate" id="rate" autofocus min="0" step="0.25"
+                                    placeholder="Hourly Rate" class="active" data-require-pair="#options" />
+                            </div>
+                        </div>
+                    </div>
+
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+
+
+
+
+</body>
+<script src="harkirat.js"></script>
+</head>
+</html>
+
+
+

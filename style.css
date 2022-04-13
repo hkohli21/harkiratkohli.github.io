@@ -1,0 +1,134 @@
+/* Name: Harkirat Singh Kohli
+        StudentID: 145039202
+        email-id- hskohli2@myseneca.ca
+        Date: 10/04/2022
+        Professor: Muath Alzhool
+*/
+/* of main page */
+* {
+  box-sizing: border-box;
+}
+
+.row1 {
+  margin-right: 350px;
+}
+
+.row2 {
+  margin-left: 06px;
+}
+
+.row3 {
+  margin-left: 06px;
+}
+
+body {
+  font-family: arial;
+
+  background: lightblue;
+}
+
+.header {
+  padding: 40px;
+  height: 450px;
+  text-align: center;
+  background: rgba(38, 72, 157, 0.906);
+  font-family: "Raleway", sans-serif;
+}
+
+.header h1 {
+  font-size: 42px;
+  font-family: "Oswald", sans-serif;
+}
+
+.links {
+  overflow: hidden;
+}
+
+.links a {
+  display: inline-block;
+  color: rgb(225, 129, 188);
+  text-align: center;
+  padding: 15px 18px;
+  font-family: "sans-serif", bold;
+  font-size: 22px;
+}
+
+.links a:hover {
+  background-color: white;
+  color: rgb(225, 129, 188);
+}
+
+.col1 {
+  background-color: white;
+  padding: 65px;
+  margin-top: 21px;
+}
+
+.col2 {
+  background-color: white;
+  background-size: 70px;
+  padding: 65px;
+  margin-top: 21px;
+}
+
+.footer {
+  padding: 10px;
+  display: block;
+  text-align: center;
+  background: royalblue;
+  margin-top: 740px;
+}
+.col1 img {
+  object-fit: contain;
+}
+@media only screen and (min-width: 600px) and (max-width: 600px) {
+  .col1 img {
+    object-fit: contain;
+    position: relative top= 120px;
+  }
+}
+
+/* for contact */
+.row1 {
+  margin-left: 00px;
+}
+
+.colmn1 {
+  background-color: lightblue;
+  width: 470px;
+
+  margin-left: 38px;
+  margin-top: 22px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #ccd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #073712;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #7de193;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #ccdddf;
+  padding: 20px;
+}
